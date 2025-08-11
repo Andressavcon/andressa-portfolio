@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Instagram } from "lucide-react";
+
 interface ContactProps {
 	fadeInUp: Variants;
 }
@@ -42,7 +43,7 @@ const Contact: React.FC<ContactProps> = ({ fadeInUp }) => {
 					viewport={{ once: true }}
 				>
 					<a
-						href="mailto:seuemail@exemplo.com"
+						href="mailto:andressavconrado@gmail.com"
 						className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
 					>
 						<Mail className="w-5 h-5" />
@@ -50,7 +51,7 @@ const Contact: React.FC<ContactProps> = ({ fadeInUp }) => {
 					</a>
 
 					<a
-						href="https://www.linkedin.com/in/seulinkedin/"
+						href="https://www.linkedin.com/in/andressavcon/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
@@ -60,13 +61,13 @@ const Contact: React.FC<ContactProps> = ({ fadeInUp }) => {
 					</a>
 
 					<a
-						href="https://github.com/seuusuario"
+						href="https://www.instagram.com/andressavcon"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+						className="flex items-center gap-2 bg-gradient-to-r from-[#f58529] via-[#dd2a7b] to-[#8134af] hover:from-[#e57522] hover:via-[#c32675] hover:to-[#6f2f94] text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
 					>
-						<Github className="w-5 h-5" />
-						GitHub
+						<Instagram className="w-5 h-5" />
+						Instagram
 					</a>
 				</motion.div>
 			</div>
